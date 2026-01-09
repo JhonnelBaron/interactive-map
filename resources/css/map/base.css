@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.ph-map {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.region {
+    fill: #e5e7eb;
+    stroke: #ffffff;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.region:hover {
+    fill: #2563eb;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 14px;
+    display: none;
+}
